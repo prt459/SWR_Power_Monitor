@@ -23,6 +23,8 @@ interlock is dependent on several factors including the processing speed of the 
 All constants are #define'd.  
 The displays dim after a configurable period of inactivity. 
 The High SWR interlock resets when the SWR drops below the threshold. 
+Analog reads from the forward and reflected coupler ports are buffered and averaged. 
+
 
 Comments, feedback, improvements, stories welcome. 
 
